@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    background-color:#818182;
+}
+.sidenav{
+    left: 0;
+    display: flex;
+    width: 25%;
+    background-color: lavender;
+    list-style-type: none;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: fit-content; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right:0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 1%; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    display:flex;
+    
+  }
+  .icon{
+    padding: 18px 18px 18px 48px;
+    text-decoration: none;
+    font-size: 120%;
+    color: #818181;
+    display: flex;
+    transition: 0.3s;
+    padding-left: 5%;
+    border:#0070f3;
+    border-radius: 2%;
+    border-style: dashed;
+  }
+  .sidenav icon {
+    padding: 18px 18px 18px 48px;
+    text-decoration: none;
+    font-size: 120%;
+    color: #818181;
+    display: flex;
+    transition: 0.3s;
+    padding-left: 5%;
+    border:#0070f3;
+    border-radius: 2%;
+    border-style: dashed;
+  }
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 18px 18px 18px 48px;
+    text-decoration: none;
+    font-size: 70%;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .card span {
+    font-size: 32px;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 15%;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .navbar{
+    padding-left: 30%;
+    height: 10%;
+    background-color: aqua;
+    width: 100%;
+    right: 0;
+  }
+  .navbar ol {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+  }
