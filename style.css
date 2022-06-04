@@ -3,7 +3,7 @@ body{
     background-color:cornsilk;
 }
 .sidenav{
-    left: 0;
+    right: 0;
     display: flex;
     width: 25%;
     background-color: lavender;
