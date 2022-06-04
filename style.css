@@ -1,0 +1,11 @@
+body{
+    margin:0;
+    background-color:cornsilk;
+}
+.sidenav{
+    left: 0;
+    display: flex;
+    width: 25%;
+    background-color: lavender;
+    list-style-type: none;
+}
