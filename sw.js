@@ -1,7 +1,7 @@
 self.addEventListener("install",e=>{
     e.waitUntill(
         caches.open("static").then(cache => {
-            return cache.addAll(["./","./src/styles.css","./img/icon-192x192.png"]);
+            return cache.addAll(["./index.js","./src/test-xl.xlsx","./attendace.html","./","./src/styles.css","./img/icon-192x192.png"]);
         })
     );
 });
