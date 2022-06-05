@@ -20,5 +20,5 @@ if("serviceWorker" in  navigator){
         <td></td>
         <td>١١د١</td>
         <td>dummy</td>
-      </tr>")
+      </tr>");
      }
